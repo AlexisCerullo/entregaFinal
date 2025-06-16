@@ -184,13 +184,13 @@ nav ul a:hover {
 .impresoras .impresora .textoImpresora .nombreImpresora {
   margin-top: 10%;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 3vh;
   color: #6096B4;
   text-align: center;
 }
 .impresoras .impresora .textoImpresora .precioImpresora {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2vh;
   color: #028A0F;
 }
 .impresoras .impresora .textoImpresora .detalleImpresora {
@@ -198,6 +198,8 @@ nav ul a:hover {
   height: 100%;
   display: flex;
   align-items: center;
+  font-size: 1.5vh;
+  box-sizing: border-box;
 }
 
 .capacitacion {

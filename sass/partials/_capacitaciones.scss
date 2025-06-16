@@ -1,0 +1,24 @@
+@use './mixins' as m;
+
+.capacitacion {
+    margin-bottom: 5%;
+    @include m.flex(column);
+    gap: 10vh;
+
+    img {
+        width: 70%;
+        margin: 5% auto 0 auto;
+    }
+
+    .capacitacionDetalle {
+        @include m.flex(column);
+        gap: 20px;
+        margin: 0 5%;
+
+        .capacitacionTitulo {
+            text-align: center;
+            border-bottom: solid var(--grisOscuro) 1px;
+        }
+
+    }
+}
